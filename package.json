@@ -1,5 +1,5 @@
 {
-  "name": "Darkwallet i18n proxy",
+  "name": "darkwallet-i18n-proxy",
   "version": "0.1.0",
   "description": "Provides some useful Transifex API parts to Darkwallet",
   "keywords": [
