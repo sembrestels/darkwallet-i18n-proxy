@@ -1,31 +1,34 @@
 {
-  "name": "OpenShift-Sample-App",
-  "version": "1.0.0",
-  "description": "OpenShift Sample Application",
+  "name": "Darkwallet i18n proxy",
+  "version": "0.1.0",
+  "description": "Provides some useful Transifex API parts to Darkwallet",
   "keywords": [
     "OpenShift",
     "Node.js",
     "application",
-    "openshift"
+    "openshift",
+    "i18n",
+    "darkwallet"
   ],
   "author": {
-    "name": "OpenShift",
-    "email": "ramr@example.org",
-    "url": "http://www.openshift.com/"
+    "name": "David Llop",
+    "email": "sembrestels@riseup.net",
+    "url": "https://darkwallet.is/"
   },
-  "homepage": "http://www.openshift.com/",
+  "homepage": "https://i18n-darkwallet.rhcloud.com/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openshift/origin-server"
+    "url": "https://github.com/sembrestels/darkwallet-i18n-proxy"
   },
 
   "engines": {
-    "node": ">= 0.6.0",
+    "node": "0.10.x",
     "npm": ">= 1.0.0"
   },
 
   "dependencies": {
-    "express": "~3.4.4"
+    "express": "~4.9.x",
+    "request": "~2.47.0"
   },
   "devDependencies": {},
   "bundleDependencies": [],
